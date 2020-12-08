@@ -47,3 +47,6 @@ GTAGS
 yarn-error.log
 !Dockerfile.dapper
 Dockerfile.dapper*
+
+#webstorm
+.idea/

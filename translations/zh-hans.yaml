@@ -2465,7 +2465,7 @@ k8sPage:
         然后下载<a href="https://www.cnrancher.com/docs/rancher/v2.x/cn/install-prepare/download/kubernetes/" target="_blank"><code>kubectl</code></a>(如有需要)安装并运行。
 
 loginPage:
-  greeting: "您好！<br>欢迎使用 {appName}"
+  greeting: "欢迎使用 <br/>{appName}"
   insecure: "{appName} 仅支持<code>https://</code>连接，您必须:<br><br>使用服务器内置的 TLS 支持<br><br>，或者在容器前面提供自己的 TLS 终止服务。"
   githubMessage: "{appName} 使用 GitHub 管理账号和团队。点击以下按钮以登录，我们将仅使用基本的 GitHub 账号信息。"
   shibbolethMessage: "{appName} 使用 Shibboleth 管理账号。点击以下按钮以登录到设置的 Shibboleth IDP。"

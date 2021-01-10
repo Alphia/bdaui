@@ -1,0 +1,17 @@
+FROM node:12.20
+
+EXPOSE 8000
+
+RUN mkdir -p /usr/local/src/bdaui
+WORKDIR /usr/local/src/bdaui
+#COPY package.json ./
+#COPY scripts ./scripts
+COPY ./ /usr/local/src/bdaui
+RUN ./scripts/update-dependencies && yarn install
+#RUN yarn install && yarn cache clean 
+
+#ENTRYPOINT ["./start.sh"]
+ENTRYPOINT ["bash"]
+#CMD ["start","--ssl=false"]
+#RUN
+
